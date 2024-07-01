@@ -50,7 +50,9 @@ function App() {
           }
         </Grid>
       </Box>
-
+      <Typography component="p" mt={2}>
+        Footer
+      </Typography>
     </Container>
   )
 }
