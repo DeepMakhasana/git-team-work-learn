@@ -38,12 +38,10 @@ function App() {
         <Typography component="h1" variant='h4' mt={4}>
           Todo
         </Typography>
-        <Grid container spacing={4} gap={1} mt={4}>
+        <Grid container spacing={4} mt={4}>
           {
             todo.map((todo) => (
-              <Grid key={todo.id} item xs={6} sm={4} lg={3} sx={{
-                border: "1px solid black",
-              }} padding={0}>
+              <Grid key={todo.id} item xs={6} sm={4} lg={3} padding={0}>
                 <Todo todo={todo} />
               </Grid>
             ))
