@@ -8,6 +8,7 @@ const Navbar = () => {
                 <ul style={{ display: "flex", gap: "1rem" }}>
                     <li>Home</li>
                     <li>Dashboard</li>
+                    <li>Product</li>
                 </ul>
             </div>
         </Container>
