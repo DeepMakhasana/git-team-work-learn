@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Todo from './components/Todo';
 import { Box, Button, Container, Grid, Typography } from '@mui/material';
+import Hero from './components/Hero';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <Container component="main" maxWidth="lg">
+      <Hero />
       <Box
         sx={{
           marginTop: 8,
