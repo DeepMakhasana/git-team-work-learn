@@ -38,7 +38,7 @@ function App() {
       </Box>
       <Box component="section">
         <Typography component="h1" variant='h4' mt={4}>
-          Todo
+          Todo List
         </Typography>
         <Grid container spacing={4} mt={4}>
           {
